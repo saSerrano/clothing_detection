@@ -20,9 +20,15 @@ pip install -r requirements.txt
 
 ```
 
-3. Install clothing-detector dependencies:
+3. Install ros-python dependencies:
 ```
 pip install rospy rospkg pyyaml
+```
+
+4. Compile ROS package:
+```
+roscd;cd ..
+catkin_make
 ```
 
 ## Run Detector
